@@ -33,22 +33,35 @@ Before you begin, ensure you have installed:
 ```
 ## Installation
 
-1. Clone the repository
-```bash
+1. Clone the repository from GitHub:
+   ```
+   git clone https://github.com/your-username/your-repo.git
+   ```
+2. Navigate to the project folder:
+   ```
+   cd BizzPortal
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Run the development server:
+   ```
+   npm start
+   ```
 
+## Usage
 
-git clone https://github.com/Jinish2170/BizzPortal.git
-```
+- Open http://localhost:3000 in your browser.
+- Log in with valid credentials to access the dashboard and other features (Suppliers, Budgets, Documents, etc.).
 
-2. Navigate to project directory
-```bash
-cd BizzPortal
-```
+## Additional Information
 
-3. Install dependencies
-```bash
-npm install
-```
+- This app is built with React and Material-UI.
+- For production builds, use:
+  ```
+  npm run build
+  ```
 
 ## Running Locally
 
